@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter the amount"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="@color/darkGrey"
+        android:hint="BDT-Bangladeshi Taka"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check the Button"
+        android:textColor="@color/colorAccent"
+        android:textSize="15dp" />
+
+    <RadioGroup
+        android:layout_width="500dp"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="Indian Rupee" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="CAD-Canadian Dollar" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="CNY-Chinese Yuan" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="HKD-Hong Kong Dollar" />
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="KRW-South Korean Won" />
+        <RadioButton
+            android:id="@+id/radioButton6"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="KWD-Kuwaiti Dinar" />
+        <RadioButton
+            android:id="@+id/radioButton7"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="LKR-Sri Lankan Rupee" />
+        <RadioButton
+            android:id="@+id/radioButton8"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="OMR-Omani Rial" />
+        <RadioButton
+            android:id="@+id/radioButton9"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="QAR-Qatari Rial" />
+        <RadioButton
+            android:id="@+id/radioButton10"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="SGD-Singapore Dollar" />
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="@color/darkGrey"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"/>
+</LinearLayout>
